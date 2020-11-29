@@ -5,36 +5,41 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #553055;
+  background-color: #f0f0f1;
 }
 
 .App {
-  background-color: #4c2a4c;
+  background-color: #ffffff;
   margin: 20px auto;
   width: 90%;
   max-width: 700px;
-  color: #eee;
+  color: #000000;
+  border-radius: 5px;
+  box-shadow: 4px 4px 7px gray;
 }
 
 .navbar {
   padding: 10px 20px;
   text-align: center;
-  background-color: #6d3d6d;
+  background-color: #37517e;
+  border-radius: 5px;
+  color: #ffffff;
 }
 
 .navbar h1 {
   margin: 10px 0;
+  text-shadow: 2px 2px 3px black;
 }
 
 .book-list{
-  margin: 20px;
+  margin: 30px;
 }
 .book-list ul{
   padding: 0;
   list-style-type: none;
 }
 .book-list li{
-  background: #6d3d6d;
+  background: #37517e;
   border-radius: 4px;
   padding: 10px;
   cursor: pointer;
@@ -59,7 +64,7 @@ body {
 }
 
 form{
-  padding: 20px;
+  padding: 30px;
 }
 
 input[type='text']{
@@ -67,15 +72,18 @@ input[type='text']{
   padding: 10px;
   box-sizing: border-box;
   margin: 6px 0;
-  background: #3c1f3c;
-  color: #fff;
+  background: rgb(236, 241, 250);
+  color: black;
   border: 0;
+  box-shadow: 1px 1px 3px gray;
 }
 
 input[type='submit']{
   margin: 10px auto;
   background: #eee;
   border: 0;
+  border-radius: 3px;
   padding: 6px 20px;
   display: block;
+  box-shadow: 2px 2px 3px gray;
 }
